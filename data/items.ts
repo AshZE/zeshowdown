@@ -1009,6 +1009,20 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 189,
 		gen: 4,
 	},
+	cinderacite: {
+		name: "Cinderacite",
+		spritenum: 12626,
+		megaStone: "Cinderace-Mega",
+		megaEvolves: "Cinderace",
+		itemUser: ["Cinderace"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 9008,
+		gen: 8,
+		isNonstandard: "Past",
+	},
 	clawfossil: {
 		name: "Claw Fossil",
 		spritenum: 72,

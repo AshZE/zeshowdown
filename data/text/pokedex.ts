@@ -3167,6 +3167,9 @@ export const PokedexText: {[id: IDEntry]: PokedexText} = {
 	cinderace: {
 		name: "Cinderace",
 	},
+	cinderacemega: {
+		name: "Cinderace-Mega",
+	},
 	cinderacegmax: {
 		name: "Cinderace-Gmax",
 	},

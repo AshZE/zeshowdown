@@ -278,6 +278,10 @@ export const ItemsText: {[id: IDEntry]: ItemText} = {
 		name: "Chople Berry",
 		shortDesc: "Halves damage taken from a supereffective Fighting-type attack. Single use.",
 	},
+	cinderacite: {
+		name: "Cinderacite",
+		shortDesc: "If held by a Cinderace, this item allows it to Mega Evolve in battle.",
+	},
 	clawfossil: {
 		name: "Claw Fossil",
 		shortDesc: "Can be revived into Anorith.",
