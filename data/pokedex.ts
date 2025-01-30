@@ -14787,7 +14787,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		abilities: {0: "Tinted Lens"},
 		heightm: 1.4,
 		weightkg: 33,
-		color: "Red",
+		color: "White",
 		eggGroups: ["Field", "Human-Like"],
 		requiredItem: "Cinderacite",
 	},
