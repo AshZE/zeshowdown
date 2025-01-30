@@ -4655,6 +4655,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "UUBL",
 	},
+	cinderacemega: {
+		tier: "OU",
+		doublesTier: "(DUU)",
+		natDexTier: "UUBL",
+	},
 	cinderacegmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",

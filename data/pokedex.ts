@@ -14772,6 +14772,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Raboot",
 		evoLevel: 35,
 		eggGroups: ["Field", "Human-Like"],
+		otherFormes: ["Cinderace-Mega"],
+		formeOrder: ["Cinderace", "Cinderace-Mega"],
 		canGigantamax: "G-Max Fireball",
 	},
 		cinderacemega: {

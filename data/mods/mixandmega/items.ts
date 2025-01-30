@@ -87,6 +87,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	cinderacite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	cornerstonemask: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
