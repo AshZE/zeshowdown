@@ -10865,6 +10865,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fighting",
 		contestType: "Clever",
 	},
+	lperil: {
+		num: -1,  
+		accuracy: 100,
+		basePower: 250,
+		category: "Physical",
+		name: "L-Peril",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		selfdestruct: "always",
+		secondary: null,
+		target: "allAdjacent",
+		type: "Dark",
+		contestType: "Tough",
+		onHit(target: Pokemon, source: Pokemon) {
+			target.boosts.def = Math.floor(target.boosts.def / 2);  // Halve target's Defense
+			source.faint();  
+		},
+	},
 	luckychant: {
 		num: 381,
 		accuracy: true,

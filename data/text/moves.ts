@@ -3668,6 +3668,10 @@ export const MovesText: {[id: IDEntry]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
 		shortDesc: "100% chance to lower the target's Speed by 1.",
 	},
+	lperil: {
+		name: "L-Peril",
+		desc: "Hits adjacent Pokemon. The user faints.",
+	},
 	luckychant: {
 		name: "Lucky Chant",
 		desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
